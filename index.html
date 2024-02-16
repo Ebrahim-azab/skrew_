@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width",initial-scale=1.0>  
+        <title>سكرو</title>
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap" rel="stylesheet">                  
+        </head>
+        <body>
+    <table id="myTable">
+        <tr>
+            <th id="o" colspan="100%">
+              Skrew  سكرو       
+            </th>
+        </tr>
+    <tr>
+        <td class="pp"><input type="text" class="mmr"></td>
+        <td class="pp"><input type="text"></td>
+        <td class="pp"><input type="text"></td>
+        <td class="pp"><input type="text"></td>
+        <td class="pp"><input type="text"></td>
+        <td class="pp"><input type="text"></td>
+        <td class="pp"><input type="text"></td>
+        <td class="pp"><input type="text"></td>
+        <td id="qw" class="c"></td>
+    </tr>
+        <tr>
+        <td class="ii"><input type="number" name="co11"></td>
+        <td class="ii"><input type="number" name="co12"></td>
+        <td class="ii"><input type="number" name="co13"></td>
+        <td class="ii"><input type="number" name="co14"></td>
+        <td class="ii"><input type="number" name="co15"></td>
+        <td class="ii"><input type="number" name="co16"></td>
+        <td class="ii"><input type="number" name="co17"></td>
+        <td class="ii"><input type="number" name="co18"></td>
+        <td class="z">الجوله الاولى</td>
+    </tr>
+    <tr>
+        <td class="ii"><input type="number" name="co11"></td>
+        <td class="ii"><input type="number" name="co12"></td>
+        <td class="ii"><input type="number" name="co13"></td>
+        <td class="ii"><input type="number" name="co14"></td>
+        <td class="ii"><input type="number" name="co15"></td>
+        <td class="ii"><input type="number" name="co16"></td>
+        <td class="ii"><input type="number" name="co17"></td>
+        <td class="ii"><input type="number" name="co18"></td>
+        <td class="z">الجوله الثانيه</td>
+    </tr>
+    <tr>
+        <td class="ii"><input type="number" name="co11"></td>
+        <td class="ii"><input type="number" name="co12"></td>
+        <td class="ii"><input type="number" name="co13"></td>
+        <td class="ii"><input type="number" name="co14"></td>
+        <td class="ii"><input type="number" name="co15"></td>
+        <td class="ii"><input type="number" name="co16"></td>
+        <td class="ii"><input type="number" name="co17"></td>
+        <td class="ii"><input type="number" name="co18"></td>
+        <td class="z">الجوله الثالثه</td>
+    </tr>
+    <tr>
+        <td class="ii"><input type="number" name="co11"></td>
+        <td class="ii"><input type="number" name="co12"></td>
+        <td class="ii"><input type="number" name="co13"></td>
+        <td class="ii"><input type="number" name="co14"></td>
+        <td class="ii"><input type="number" name="co15"></td>
+        <td class="ii"><input type="number" name="co16"></td>
+        <td class="ii"><input type="number" name="co17"></td>
+        <td class="ii"><input type="number" name="co18"></td>
+        <td class="z">الجوله الرابعه</td>
+    </tr>
+    <tr>
+        <td class="ii"><input type="number" name="co11"></td>
+        <td class="ii"><input type="number" name="co12"></td>
+        <td class="ii"><input type="number" name="co13"></td>
+        <td class="ii"><input type="number" name="co14"></td>
+        <td class="ii"><input type="number" name="co15"></td>
+        <td class="ii"><input type="number" name="co16"></td>
+        <td class="ii"><input type="number" name="co17"></td>
+        <td class="ii"><input type="number" name="co18"></td>
+        <td class="z">الجوله الخامسه</td>
+    </tr>
+   <tr>
+        <td class="hh" id="col1_total">0</td>
+        <td class="hh" id="col2_total">0</td>
+        <td class="hh" id="col3_total">0</td>
+        <td class="hh" id="col4_total">0</td>
+        <td class="hh" id="col5_total">0</td>
+        <td class="hh" id="col6_total">0</td>
+        <td class="hh" id="col7_total">0</td>
+        <td class="hh" id="col8_total">0</td>
+        <td class="c">المجموع</td>
+    </tr>
+    </table>
+    <footer>
+        @ 2024 Ebrahim.
+        <br>
+        All Rights Reserved.
+    </footer>        
+    <button class="reset">Reset</button>
+ <script>
+    document.querySelector(".reset").addEventListener("click", function () {
+        const tableRows = document.querySelectorAll("#myTable tr");
+        tableRows.forEach((row, index) => {
+          if (index !== tableRows.length - 1) {
+            const numberInputs = row.querySelectorAll('input[type="number"]');
+            numberInputs.forEach((input) => (input.value = ""));
+          }
+        });
+      });
+ </script>
+    </body>
+</html> 

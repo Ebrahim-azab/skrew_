@@ -1,0 +1,100 @@
+body {
+    display: flex;
+    background-color: #6e54a3;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 90vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black ;
+    font-weight: 900;
+    text-align: center;
+}
+table{
+    box-sizing: border-box;
+    border-collapse:collapse ;
+    display:table;
+    height: 450px;
+    width: 100%;
+    letter-spacing: 1px;
+    max-width: 700px;
+    position: absolute;
+    overflow: hidden;
+    text-indent: initial;
+    border-spacing: 2px;
+    text-shadow: 1px, 1px, 1px , black;
+}
+td {
+    background-color: #24183e;
+    border: 1px solid #ff9f00;
+}
+#o {
+    background-color: #58a404;
+    font-size: 20px;
+    font-weight: 2000px;
+    height: 50px;
+    color: white;
+}
+.ii input {
+    background-color: #24183e;
+    border: none;
+}
+  .z{
+    background-color: #1406ce;
+    width: 500px;
+    color: white;
+}
+.pp input{
+    background-color: #66011c;
+    border: none;
+}
+footer{
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+}
+.pp {
+    background-color: #66011c;
+}
+input {
+    height: 80px;
+    width: 100px;
+    color: white;
+}
+.hh{
+    background-color: #58a404;
+    color: white;
+    text-align: center;
+    height: 60px;
+
+}
+.c{
+    background-color: #ff9f00;
+    color: #000;;
+    text-align: center;
+    font-weight: bolder;
+}
+.mnr {
+    background-color: #58a404;
+    color: white;
+    text-align: center;
+    height: 60px;
+}
+.reset {
+    position: absolute;
+    top: 85% ;
+    transform: (-50%,-50%);
+    background-color: #24183e;
+    color: white;
+    height: 50px;
+    width: 100px;
+    border: 1px solid white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    transition: 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
